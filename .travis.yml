@@ -8,5 +8,3 @@ deploy:
   app: advisor-ui-ie
   on:
     branch: feature/github-actions
-after_success:
-  - pip freeze
