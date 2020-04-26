@@ -8,8 +8,8 @@ import { alertActions } from './actions';
 import { HomePage } from './pages/HomePage';
 
 const CALLBACK_PATH = '/implicit/callback';
-const OKTA_DOMAIN =  process.env.DOMAIN;
-const CLIENT_ID =  process.env.CLIENT_ID;
+const OKTA_DOMAIN = process.env.REACT_APP_DOMAIN;
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 
 const ISSUER = `https://${OKTA_DOMAIN}/oauth2/default`;
 const HOST = window.location.host;
