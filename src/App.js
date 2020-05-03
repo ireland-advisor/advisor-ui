@@ -7,7 +7,7 @@ import { history } from './helpers';
 import { alertActions } from './actions';
 import { HomePage } from './pages/HomePage';
 import Login from './components/Login';
-import Register from './components/Register';
+//import Register from './components/Register';
 
 
 import config from './config';
@@ -41,7 +41,6 @@ class App extends React.Component {
 								<div>
 									<Route path={CALLBACK_PATH} component={LoginCallback} />
 									<Route path="/login" component={Login} />
-									<Route path="/register" component={Register} />
 									<SecureRoute exact path="/" component={HomePage} />
 								</div>
 							</Security>
