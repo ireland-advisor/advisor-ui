@@ -94,7 +94,7 @@ const Login = () => {
 			idps: [
 				{ type: 'GOOGLE', id: '0oaam8g61uCkDm5lF4x6' },
 				// { type: 'FACEBOOK', id: '0oar25ZnMM5LrpY1O0g3' },
-				// { type: 'LINKEDIN', id: '0oaaix1twko0jyKik0g4' },
+				{ type: 'LINKEDIN', id: '0oaaw1wqdOJIQiUK74x6' },
 			],
 			registration: {
 				click: function () {
