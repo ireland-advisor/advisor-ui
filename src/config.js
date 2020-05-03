@@ -5,7 +5,7 @@ const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 
 const ISSUER = `https://${OKTA_DOMAIN}/oauth2/default`;
 const HOST = window.location.host;
-const REDIRECT_URI = `http://${HOST}${CALLBACK_PATH}`;
+const REDIRECT_URI = `https://${HOST}${CALLBACK_PATH}`;
 // const SCOPES = 'openid profile email';
 
 
